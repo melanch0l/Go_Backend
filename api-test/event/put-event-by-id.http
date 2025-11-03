@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/2
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbm55aUBnbWFpbC5jb20iLCJleHAiOjE3NjIxNzg2NjEsInVzZXJJZCI6NH0.je-bMl71zjottoJZucFV0ffyK5dQe9Iloy4P6qPvG1Y
+
+{
+    "Name": "Update Event",
+    "Description": "New Event",
+    "Location": "A New Location",
+    "Datetime": "2025-10-31T06:30:00Z"
+}
